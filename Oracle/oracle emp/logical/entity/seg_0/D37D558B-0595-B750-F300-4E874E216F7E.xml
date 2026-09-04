@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D37D558B-0595-B750-F300-4E874E216F7E" name="departamento">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-04 11:51:56 UTC</createdTime>
+<ownerDesignName>oracle emp</ownerDesignName>
+<engineerTo>
+<item key="E0D32049-0716-A44E-FB7B-A4995A54F304" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo do departamento" id="1546487D-41A7-65B2-BBCB-ADBE35986535">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-04 12:23:48 UTC</createdTime>
+<ownerDesignName>oracle emp</ownerDesignName>
+<engineerTo>
+<item key="E0D32049-0716-A44E-FB7B-A4995A54F304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome do departamento" id="13FA6EB8-BDF5-2FE7-0476-C89A7055E83E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-04 12:23:56 UTC</createdTime>
+<ownerDesignName>oracle emp</ownerDesignName>
+<engineerTo>
+<item key="E0D32049-0716-A44E-FB7B-A4995A54F304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

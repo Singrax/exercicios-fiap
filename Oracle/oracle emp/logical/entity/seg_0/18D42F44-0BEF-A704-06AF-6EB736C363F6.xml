@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18D42F44-0BEF-A704-06AF-6EB736C363F6" name="empregado">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-04 11:52:11 UTC</createdTime>
+<ownerDesignName>oracle emp</ownerDesignName>
+<engineerTo>
+<item key="E0D32049-0716-A44E-FB7B-A4995A54F304" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo do empregado" id="10A86366-45C0-3CB5-3820-0A9392DA5EC4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-04 12:20:44 UTC</createdTime>
+<ownerDesignName>oracle emp</ownerDesignName>
+<engineerTo>
+<item key="E0D32049-0716-A44E-FB7B-A4995A54F304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome do empregado" id="9E2114CD-8666-917D-C474-BB7BD19F73FB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-04 12:21:33 UTC</createdTime>
+<ownerDesignName>oracle emp</ownerDesignName>
+<engineerTo>
+<item key="E0D32049-0716-A44E-FB7B-A4995A54F304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="9C937A1B-8D15-DEDF-3628-9736FFD109C8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-04 12:21:46 UTC</createdTime>
+<ownerDesignName>oracle emp</ownerDesignName>
+<engineerTo>
+<item key="E0D32049-0716-A44E-FB7B-A4995A54F304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
