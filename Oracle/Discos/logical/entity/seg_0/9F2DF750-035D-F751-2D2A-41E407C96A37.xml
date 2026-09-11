@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F2DF750-035D-F751-2D2A-41E407C96A37" name="Discos">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-11 11:29:01 UTC</createdTime>
+<ownerDesignName>Discos</ownerDesignName>
+<engineerTo>
+<item key="4D831322-B849-AD61-D343-3D39588E660B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDnum" id="9D198890-FBE1-63B5-880D-68AD32DEB7E0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-11 11:29:13 UTC</createdTime>
+<ownerDesignName>Discos</ownerDesignName>
+<engineerTo>
+<item key="4D831322-B849-AD61-D343-3D39588E660B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Titulo" id="D219CA7E-9268-0F9A-D7B0-7AAF3CFD2DA4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-11 11:29:51 UTC</createdTime>
+<ownerDesignName>Discos</ownerDesignName>
+<engineerTo>
+<item key="4D831322-B849-AD61-D343-3D39588E660B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataGravacao" id="805794D8-9B21-51B0-8BEA-29362DEB9535">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-11 11:30:13 UTC</createdTime>
+<ownerDesignName>Discos</ownerDesignName>
+<engineerTo>
+<item key="4D831322-B849-AD61-D343-3D39588E660B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupo/autor" id="A9EC767B-1562-EB54-05DA-CE6DDB95953E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-11 11:30:47 UTC</createdTime>
+<ownerDesignName>Discos</ownerDesignName>
+<engineerTo>
+<item key="4D831322-B849-AD61-D343-3D39588E660B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>39</dataTypeSize>
+<ownDataTypeParameters>39,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJ" id="9075C7B8-19AF-7C47-3D95-C79015F9D8C5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-11 12:14:11 UTC</createdTime>
+<generatorID>95640D99-0ED9-58B8-94DF-08D25DF2EC6A</generatorID>
+<ownerDesignName>Discos</ownerDesignName>
+<engineerTo>
+<item key="4D831322-B849-AD61-D343-3D39588E660B" value="true"/>
+</engineerTo>
+<referedAttribute>81472FB3-574E-E81A-4DD8-28AFFCB8A806</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6D85CAF-40EC-B9E5-602C-BD4257289989" name="Discos PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-11 12:26:13 UTC</createdTime>
+<ownerDesignName>Discos</ownerDesignName>
+<engineerTo>
+<item key="4D831322-B849-AD61-D343-3D39588E660B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D198890-FBE1-63B5-880D-68AD32DEB7E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
