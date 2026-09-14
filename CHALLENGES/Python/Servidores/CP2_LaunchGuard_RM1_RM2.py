@@ -4,12 +4,13 @@ print("Bem vindo ao sistema LaunchGuard!")
 usuariosPrevistos = int(input("Usuários previstos:"))
 servidoresDisp = int (input("Quantidade de servidores disponiveis:"))
 capacidadeMax = int(input("Capacidade de usuários por servidor:"))
-latenciaAtual = float(input("Latência atual do servidor em ms:"))
+latenciaAtual = int(input("Latência atual do servidor em ms:"))
 errosCriticos = int(input("Erros criticos encontrados:"))
 usoAtual = int(input("Porcentagem do uso atual do disco do servidor:"))
 
-#Calcular e resultado dos servidores/usuario
+#Calcular e imprimir resultado dos servidores/usuario
 
+#Checa primeiro se tem servidores antes de prosseguir com as checagens
 if servidoresDisp == 0:
     print("LANÇAMENTO BLOQUEADO: Não existem servidores disponiveis")
 else:
