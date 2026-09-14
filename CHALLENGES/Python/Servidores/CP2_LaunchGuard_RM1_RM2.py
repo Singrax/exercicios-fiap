@@ -8,23 +8,23 @@ latenciaAtual = float(input("Latência atual do servidor em ms:"))
 errosCriticos = int(input("Erros criticos encontrados:"))
 usoAtual = int(input("Porcentagem do uso atual do disco do servidor:"))
 
-#Calcular e imprimir capacidade de usuário por servidor
-usuariosPorServidor = usuariosPrevistos / servidoresDisp
-print("Capacidade prevista por servidor: " + str(usuariosPorServidor))
+#Calcular e resultado dos servidores/usuario
 
-#Checagem e saída de dados
 if servidoresDisp == 0:
     print("LANÇAMENTO BLOQUEADO: Não existem servidores disponiveis")
-elif usuariosPorServidor > capacidadeMax:
-    print("LANÇAMENTO BLOQUEADO: Capacidade insuficiente")
-elif errosCriticos >= 1:
-    print ("LANÇAMENTO BLOQUEADO: Erro crítico encontrado")
-elif latenciaAtual > 300:
-    print("LANÇAMENTO ADIADO: desempenho precisa ser evitado")
-elif usoAtual > 90:
-    print("LANÇAMENTO COM ALERTA: pouco espaço disponivel")
 else:
-    print("LANÇAMENTO AUTORIZADO")
+    usuariosPorServidor = usuariosPrevistos / servidoresDisp
+    print("Capacidade prevista por servidor: " + str(usuariosPorServidor))
+    if usuariosPorServidor > capacidadeMax:
+        print("LANÇAMENTO BLOQUEADO: Capacidade insuficiente")
+    elif errosCriticos >= 1:
+        print ("LANÇAMENTO BLOQUEADO: Erro crítico encontrado")
+    elif latenciaAtual > 300:
+        print("LANÇAMENTO ADIADO: desempenho precisa ser evitado")
+    elif usoAtual > 90:
+        print("LANÇAMENTO COM ALERTA: pouco espaço disponivel")
+    else:
+        print("LANÇAMENTO AUTORIZADO")
 
 
 
