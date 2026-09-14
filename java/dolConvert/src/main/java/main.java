@@ -11,8 +11,10 @@ public class main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        //Cria uma lista pra abrigar as moedas
         List<Moeda> moedas = new ArrayList<>();
 
+        // Instanciona as moedas na lista
         Moeda dolarAm = new Moeda("Dolar Americano", "$",1);
         moedas.add(dolarAm);
         Moeda euro = new Moeda("Euro", "€",1.15);
@@ -20,7 +22,7 @@ public class main {
         Moeda real = new Moeda("Real", "R$", 5.15);
         moedas.add(real);
 
-        //Lista todas as moedas
+        //Imprime a lista de todas as moedas
         System.out.println("Moedas:");
         for (Moeda moeda : moedas) {
             System.out.println(moeda);
@@ -30,7 +32,7 @@ public class main {
         System.out.println("Escreva o primeiro valor (exemplo: 'R$ 10.00)' ");
         String valor[] = sc.nextLine().split(" ");
         String m1cifra =  valor[0];
-        Double m1valor = Double.parseDouble(valor[1]);
+        double m1valor = Double.parseDouble(valor[1]);
 
         //Coleta a segunda moeda
         System.out.println("Escreva a moeda a ser convertida (exemplo: 'Dolar Americano') ");
