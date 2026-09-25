@@ -1,6 +1,6 @@
 #inicialização e coleta de dados
 valor_estimado = float(input("Digite o valor do estimado de apoio: "))
-dias_sem_contato = int(input("Digite quantos dias desde o último do contato: "))
+dias_sem_contato = int(input("Digite quantos dias desde o último contato: "))
 nivel_interesse = 0
 tem_campanha = ""
 
