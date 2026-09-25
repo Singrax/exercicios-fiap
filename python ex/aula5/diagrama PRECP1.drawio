@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="1eSL4Z1qAewqEvRbC8_G">
+    <mxGraphModel dx="1214" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-3" edge="1" parent="1" source="kpr6R40Rp7hjUB2J4fKQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kpr6R40Rp7hjUB2J4fKQ-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3CBAF0);" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Coleta de dados:&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;valor_estimado&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;dias_sem_contato&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;nivel_interesse&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;tem_campanha&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="270" x="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-5" edge="1" parent="1" source="kpr6R40Rp7hjUB2J4fKQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kpr6R40Rp7hjUB2J4fKQ-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-7" edge="1" parent="1" source="kpr6R40Rp7hjUB2J4fKQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kpr6R40Rp7hjUB2J4fKQ-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#F0792B);rounded=0;" value="IF nivel_interesse == 3 E tem_campanha == sim" vertex="1">
+          <mxGeometry height="110" width="270" x="280" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#3AAD2A);rounded=0;" value="RETORNO IMEDIATO" vertex="1">
+          <mxGeometry height="80" width="195" x="610" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-9" edge="1" parent="1" source="kpr6R40Rp7hjUB2J4fKQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kpr6R40Rp7hjUB2J4fKQ-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-11" edge="1" parent="1" source="kpr6R40Rp7hjUB2J4fKQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kpr6R40Rp7hjUB2J4fKQ-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#F0792B);rounded=0;" value="IF nivel_interesse == 3 OU valor_estimado &amp;gt;= 5000" vertex="1">
+          <mxGeometry height="110" width="270" x="280" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#3AAD2A);rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PRIORIDADE ALTA&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="195" x="610" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-13" edge="1" parent="1" source="kpr6R40Rp7hjUB2J4fKQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kpr6R40Rp7hjUB2J4fKQ-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-23" edge="1" parent="1" source="kpr6R40Rp7hjUB2J4fKQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kpr6R40Rp7hjUB2J4fKQ-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#F0792B);rounded=0;" value="IF nivel_interesse == 2 OU dias_sem_contato &amp;gt; 5" vertex="1">
+          <mxGeometry height="110" width="270" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#3AAD2A);rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PRIORIDADE MÉDIA&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="185" x="620" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;SIM&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;SIM&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;SIM&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="608" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NÃO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NÃO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NÃO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="425" y="743" as="geometry" />
+        </mxCell>
+        <mxCell id="kpr6R40Rp7hjUB2J4fKQ-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#3AAD2A);rounded=0;" value="ACOMPANHAMENTO" vertex="1">
+          <mxGeometry height="80" width="170" x="330" y="805" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
