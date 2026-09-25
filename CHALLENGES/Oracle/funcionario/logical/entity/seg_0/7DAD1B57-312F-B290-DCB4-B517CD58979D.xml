@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DAD1B57-312F-B290-DCB4-B517CD58979D" name="Funcionario">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-18 11:22:15 UTC</createdTime>
+<ownerDesignName>funcionario</ownerDesignName>
+<engineerTo>
+<item key="1909AF0D-7570-7F02-D1FC-63F5CFD2CBD3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_funcionario" id="483EF975-2859-ECCC-0C84-15FCC82136E4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-18 11:22:47 UTC</createdTime>
+<ownerDesignName>funcionario</ownerDesignName>
+<engineerTo>
+<item key="1909AF0D-7570-7F02-D1FC-63F5CFD2CBD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="6CFE3B2F-B1C2-DFFA-AA57-EFCBF51FEB80">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-18 11:22:58 UTC</createdTime>
+<ownerDesignName>funcionario</ownerDesignName>
+<engineerTo>
+<item key="1909AF0D-7570-7F02-D1FC-63F5CFD2CBD3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD0B8511-41C2-E3A7-C50F-858988781126" name="Funcionario PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-09-18 11:23:02 UTC</createdTime>
+<ownerDesignName>funcionario</ownerDesignName>
+<engineerTo>
+<item key="1909AF0D-7570-7F02-D1FC-63F5CFD2CBD3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>483EF975-2859-ECCC-0C84-15FCC82136E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

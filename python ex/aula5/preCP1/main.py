@@ -21,10 +21,10 @@ if nivel_interesse == 3 and tem_campanha == "sim":
     print("Prioridade calculada: RETORNO IMEDIATO")
     print("Ação sugerida: Realizar contato hoje")
 elif nivel_interesse == 3 or valor_estimado >= 5000.00:
-    print("Prioridade calculada: PRIORIDADE ALTA")
+    print("Prioridade calculada: ALTA")
     print("Ação sugerida: Preparar retorno em até 24h")
 elif nivel_interesse == 2 or dias_sem_contato > 5:
-    print("Prioridade calculada: PRIORIDADE MÉDIA")
+    print("Prioridade calculada: MÉDIA")
     print("Ação sugerida: Agendar acompanhamento")
 else:
     print("Prioridade calculada: ACOMPANHAMENTO")
